@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+:root{
+    --main-font: 'Pacifico',cursive;
+    --uni-font: 'Lobster';
+}
+
+body{
+    background-color: rgb(255, 179, 149);
+    background-image: url("media/background_.jpg");
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+h2{
+    font-size: 300%;
+    font-family: var(--uni-font);
+    color: rgba(124, 36, 36, 0.877);
+}
+
+h1{
+    font-size: 400%;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    color: rgba(124, 36, 36, 0.877);
+}
+
+hr{
+    width: 75%;
+    height: 5px;
+    background-color: rgb(253, 245, 245);
+    border: none;
+    text-align: ;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transition: 0.50s;
+    user-select: none;
+    display: flex;
+    flex-wrap:wrap-reverse;
+}
+
+.container:hover{
+    box-shadow: 4px 2px 87px -1px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 4px 2px 87px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 4px 2px 87px -1px rgba(0,0,0,0.59);    
+
+}
+
+.container button{
+    width: 275px;
+    height: 50px;
+    margin: 30px;
+    font-size: 125%;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 4px solid brown;
+    background: transparent;
+    color: white;
+    transition: 00.50s;
+}
+
+.container button:hover{
+    width: 300px;
+    background: rgba(255, 255, 255, 0.267);
+}
+
+.container input{
+    padding: 20px;
+    width: 350px;
+    border: none;
+    border-bottom: 4px solid rgba(151, 41, 41, 0.774);
+    background: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 115%;
+    margin: 15px;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:#DDDDDD;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
